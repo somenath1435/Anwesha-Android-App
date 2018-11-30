@@ -12,6 +12,12 @@
         <item name="colorControlNormal">@color/colorPrimaryLight</item>
     </style>
 
+    <style name="AppTheme.NoActionBar.Fullscreen" parent="AppTheme.NoActionBar.Fullscreen">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
 
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>

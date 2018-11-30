@@ -3,6 +3,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="info.anwesha2k18.iitp.activities.MainActivity">
     <item
+        android:id="@+id/exit"
+        android:orderInCategory="1"
+        android:title="Exit App"
+        app:showAsAction="never" />
+    <item
         android:id="@+id/action_log_in"
         android:orderInCategory="100"
         android:title="Log In/Register"

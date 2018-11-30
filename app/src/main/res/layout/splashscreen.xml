@@ -9,9 +9,9 @@
     <pl.droidsonroids.gif.GifImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#000"
-        android:src="@drawable/answesha_gif_slow_comp"
         android:adjustViewBounds="true"
-        android:scaleY="1.8"/>
+        android:background="#000"
+        android:scaleY="1.8"
+        android:src="@drawable/answesha_gif_slow_comp" />
 
 </RelativeLayout>

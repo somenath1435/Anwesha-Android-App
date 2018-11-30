@@ -73,7 +73,6 @@ public class MainActivity extends AppCompatActivity {
                     break;
                 case R.id.menu_item_faq:
                     startActivity(new Intent(MainActivity.this, FaqActivity.class));
-//                    Toast.makeText(MainActivity.this, "Coming Soon!", Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.menu_item_about:
                     startActivity(new Intent(MainActivity.this, AboutActivity.class));
@@ -197,6 +196,8 @@ public class MainActivity extends AppCompatActivity {
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity info AndroidManifest.xml.
         int id = item.getItemId();
+
+
         if (id == android.R.id.home) {
             drawerLayout.openDrawer(GravityCompat.START);
             return true;
@@ -215,6 +216,10 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(MainActivity.this, LoginActivity.class);
             startActivity(intent);
             refreshMenu();
+        }
+        if (id == R.id.exit) {
+            Intent i = new Intent(this, thankyou.class);
+            startActivity(i);
         }
 
 //        if (id == R.id.action_register) {
