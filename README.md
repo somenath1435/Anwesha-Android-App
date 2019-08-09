@@ -15,4 +15,4 @@ Anwesha 2k19 Android App. Anwesha is the annual techno-cultural fest of IIT Patn
 - [ ] Change FB login as JSON response changed.
 - \[x] Comment out schedule and sponsors.
 - [ ] Add section Pronites (Very Important).
-- \[x] Create `TEAM` Page.
+- \[x] Create `TEAM` Page..
